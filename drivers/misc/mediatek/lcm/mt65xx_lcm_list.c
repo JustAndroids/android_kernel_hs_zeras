@@ -30,6 +30,7 @@ extern LCM_DRIVER nt35598_wqhd_dsi_vdo_truly_lcm_drv;
 extern LCM_DRIVER lp079x01_lcm_drv;
 extern LCM_DRIVER hx8369_lcm_drv;
 extern LCM_DRIVER hx8369_6575_lcm_drv;
+extern LCM_DRIVER otm9608a_dsi_zeras_lg_lcm_drv;
 extern LCM_DRIVER hx8363_6575_dsi_lcm_drv;
 extern LCM_DRIVER hx8363_6575_dsi_hvga_lcm_drv;
 extern LCM_DRIVER hx8363_6575_dsi_qvga_lcm_drv;
@@ -227,6 +228,9 @@ LCM_DRIVER* lcm_driver_list[] =
 {
 #if defined(OTM9605A_DSI_VDO_LG) 
 	&otm9605a_dsi_vdo_lg_lcm_drv,
+#endif
+#if defined(OTM9608A_DSI_ZERAS_LG) 
+	&otm9608a_dsi_zeras_lg_lcm_drv,
 #endif
 #if defined(OTM9605A_RUIXIN_RX_466OTM_977A_AUO_DSI_VDO_QHD) 
 	&otm9605a_ruixin_RX_466OTM_977A_AUO_dsi_vdo_qhd_lcm_drv,
