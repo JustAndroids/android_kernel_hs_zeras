@@ -1,4 +1,4 @@
-## Linux kernel source code 3.10.67 for Highscreen Zera S Rev.A
+## Linux kernel source code 3.10.54 for Highscreen Zera S Rev.A
 
 
  
